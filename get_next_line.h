@@ -6,7 +6,7 @@
 /*   By: yoelhaim <yoelhaim@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/09 15:52:51 by yoelhaim          #+#    #+#             */
-/*   Updated: 2021/12/12 00:47:49 by yoelhaim         ###   ########.fr       */
+/*   Updated: 2021/12/12 00:48:26 by yoelhaim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,6 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
-// # ifndef BUFFER_SIZE
-// # define BUFFER_SIZE 42
-// # endif
 
 char	*ft_substr(char *s, int start, int len);
 char	*ft_strjoin(char  *s1, char  *s2);
