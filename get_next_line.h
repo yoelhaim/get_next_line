@@ -6,7 +6,7 @@
 /*   By: yoelhaim <yoelhaim@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/09 15:52:51 by yoelhaim          #+#    #+#             */
-/*   Updated: 2021/12/09 16:16:35 by yoelhaim         ###   ########.fr       */
+/*   Updated: 2021/12/12 00:47:49 by yoelhaim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,4 +25,5 @@ char	*ft_substr(char *s, int start, int len);
 char	*ft_strjoin(char  *s1, char  *s2);
 char 	*get_next_line(int fd);
 int		ft_strlen(char *s);
+
 # endif
