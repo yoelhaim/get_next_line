@@ -6,11 +6,11 @@
 /*   By: yoelhaim <yoelhaim@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/09 15:52:39 by yoelhaim          #+#    #+#             */
-/*   Updated: 2021/12/09 16:13:29 by yoelhaim         ###   ########.fr       */
+/*   Updated: 2021/12/12 17:23:26 by yoelhaim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "get_next_line.h"
+#include "get_next_line.h"
 
 int	ft_strlen(char *str)
 {
