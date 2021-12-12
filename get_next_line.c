@@ -6,13 +6,13 @@
 /*   By: yoelhaim <yoelhaim@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/30 19:09:13 by yoelhaim          #+#    #+#             */
-/*   Updated: 2021/12/09 23:37:47 by yoelhaim         ###   ########.fr       */
+/*   Updated: 2021/12/12 17:19:56 by yoelhaim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "get_next_line.h"
+#include "get_next_line.h"
 
-#ifndef	BUFFER_SIZE
+#ifndef BUFFER_SIZE
 # define BUFFER_SIZE 42
 
 #endif
@@ -88,43 +88,11 @@ char	*get_next_line(int fd)
 			free(buffer);
 			return (NULL);
 		}
-		// printf("%d", i);
 		buffer[i] = '\0';
 		stc_arr = ft_strjoin(stc_arr, buffer);
-		break;
 	}
 	free(buffer);
 	line = str_ret(stc_arr);
 	stc_arr = str_remainder(stc_arr);
 	return (line);
-}
-
-// int main()
-// {
-// 	int fd = open("hh.txt", O_RDONLY);
-// 	// char *r = get_next_line(fd);
-// 	// int i =0;
-// 	// while (r[i])
-// 	// {
-// 	// 	printf("%c", r[i]);
-
-// 	// }
-// 	printf("%s", get_next_line(fd));
-
-// }
-int	main(void)
-{
-	int fd = open("hh.txt", O_RDONLY);
-	printf("%s", get_next_line(fd));
-	// printf("%s", get_next_line(fd));
-	// printf("%s", get_next_line(fd));
-	// printf("%s", get_next_line(fd));
-	// printf("%s", get_next_line(fd));
-	// printf("%s", get_next_line(fd));
-	// printf("%s", get_next_line(fd));
-	// printf("%s", get_next_line(fd));
-	// printf("%s", get_next_line(fd));
-    int a= 22;
-	ft_printf("a egal b et => %p", a)
-	return (0);
 }
