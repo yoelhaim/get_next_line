@@ -6,7 +6,7 @@
 /*   By: yoelhaim <yoelhaim@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/12 13:50:19 by yoelhaim          #+#    #+#             */
-/*   Updated: 2021/12/12 17:24:27 by yoelhaim         ###   ########.fr       */
+/*   Updated: 2021/12/13 20:47:51 by yoelhaim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,7 +79,7 @@ char	*ft_substr(char *s, int start, int len)
 
 
 #ifndef	BUFFER_SIZE
-# define BUFFER_SIZE 42
+# define BUFFER_SIZE 10
 
 #endif
 
@@ -177,17 +177,17 @@ char	*get_next_line(int fd)
 // 	printf("%s", get_next_line(fd));
 
 // }
-// int	main(void)
-// {
-// 	int fd = open("hh.txt", O_RDONLY);
-// 	printf("%s", get_next_line(fd));
-// 	printf("%s", get_next_line(fd));
-// 	// printf("%s", get_next_line(fd));
-// 	// printf("%s", get_next_line(fd));
-// 	// printf("%s", get_next_line(fd));
-// 	// printf("%s", get_next_line(fd));
-// 	// printf("%s", get_next_line(fd));
-// 	// printf("%s", get_next_line(fd));
-// 	// printf("%s", get_next_line(fd));
+int	main(void)
+{
+	int fd = open("e1.txt", O_RDONLY);
+	printf("%s", char *d,get_next_line(fd));
+	printf("%s", get_next_line(fd));
+	// printf("%s", get_next_line(fd));
+	// printf("%s", get_next_line(fd));
+	// printf("%s", get_next_line(fd));
+	// printf("%s", get_next_line(fd));
+	// printf("%s", get_next_line(fd));
+	// printf("%s", get_next_line(fd));
+	// printf("%s", get_next_line(fd));
 
-// }
+}
