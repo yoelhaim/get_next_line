@@ -6,7 +6,7 @@
 /*   By: yoelhaim <yoelhaim@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/30 19:09:13 by yoelhaim          #+#    #+#             */
-/*   Updated: 2021/12/12 17:19:56 by yoelhaim         ###   ########.fr       */
+/*   Updated: 2021/12/18 12:39:52 by yoelhaim         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,16 +54,13 @@ char	*str_remainder(char *stc_arr)
 
 int	find_nl(char *s)
 {
-	int	i;
-
-	i = 0;
 	if (!s)
 		return (0);
-	while (s[i])
+	while (*s)
 	{
-		if (s[i] == '\n')
+		if (*s == '\n')
 			return (1);
-		i++;
+		s++;
 	}
 	return (0);
 }
